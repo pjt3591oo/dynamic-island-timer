@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F0B19E52903863B000A5FE7 /* dynamic_island_tutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B19E42903863B000A5FE7 /* dynamic_island_tutorialApp.swift */; };
+		1F0B19E72903863B000A5FE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B19E62903863B000A5FE7 /* ContentView.swift */; };
+		1F0B19E92903863C000A5FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B19E82903863C000A5FE7 /* Assets.xcassets */; };
+		1F0B19EC2903863C000A5FE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B19EB2903863C000A5FE7 /* Preview Assets.xcassets */; };
+		1F0B19F62903863D000A5FE7 /* dynamic_island_tutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B19F52903863D000A5FE7 /* dynamic_island_tutorialTests.swift */; };
+		1F0B1A002903863D000A5FE7 /* dynamic_island_tutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B19FF2903863D000A5FE7 /* dynamic_island_tutorialUITests.swift */; };
+		1F0B1A022903863D000A5FE7 /* dynamic_island_tutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B1A012903863D000A5FE7 /* dynamic_island_tutorialUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F0B19F22903863D000A5FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0B19D92903863B000A5FE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0B19E02903863B000A5FE7;
+			remoteInfo = "dynamic-island-tutorial";
+		};
+		1F0B19FC2903863D000A5FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0B19D92903863B000A5FE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0B19E02903863B000A5FE7;
+			remoteInfo = "dynamic-island-tutorial";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F0B19E12903863B000A5FE7 /* dynamic-island-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dynamic-island-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0B19E42903863B000A5FE7 /* dynamic_island_tutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamic_island_tutorialApp.swift; sourceTree = "<group>"; };
+		1F0B19E62903863B000A5FE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1F0B19E82903863C000A5FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F0B19EB2903863C000A5FE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F0B19F12903863D000A5FE7 /* dynamic-island-tutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dynamic-island-tutorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0B19F52903863D000A5FE7 /* dynamic_island_tutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamic_island_tutorialTests.swift; sourceTree = "<group>"; };
+		1F0B19FB2903863D000A5FE7 /* dynamic-island-tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dynamic-island-tutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0B19FF2903863D000A5FE7 /* dynamic_island_tutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamic_island_tutorialUITests.swift; sourceTree = "<group>"; };
+		1F0B1A012903863D000A5FE7 /* dynamic_island_tutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamic_island_tutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F0B19DE2903863B000A5FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0B19EE2903863D000A5FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0B19F82903863D000A5FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F0B19D82903863B000A5FE7 = {
+			isa = PBXGroup;
+			children = (
+				1F0B19E32903863B000A5FE7 /* dynamic-island-tutorial */,
+				1F0B19F42903863D000A5FE7 /* dynamic-island-tutorialTests */,
+				1F0B19FE2903863D000A5FE7 /* dynamic-island-tutorialUITests */,
+				1F0B19E22903863B000A5FE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F0B19E22903863B000A5FE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F0B19E12903863B000A5FE7 /* dynamic-island-tutorial.app */,
+				1F0B19F12903863D000A5FE7 /* dynamic-island-tutorialTests.xctest */,
+				1F0B19FB2903863D000A5FE7 /* dynamic-island-tutorialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F0B19E32903863B000A5FE7 /* dynamic-island-tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				1F0B19E42903863B000A5FE7 /* dynamic_island_tutorialApp.swift */,
+				1F0B19E62903863B000A5FE7 /* ContentView.swift */,
+				1F0B19E82903863C000A5FE7 /* Assets.xcassets */,
+				1F0B19EA2903863C000A5FE7 /* Preview Content */,
+			);
+			path = "dynamic-island-tutorial";
+			sourceTree = "<group>";
+		};
+		1F0B19EA2903863C000A5FE7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F0B19EB2903863C000A5FE7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F0B19F42903863D000A5FE7 /* dynamic-island-tutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F0B19F52903863D000A5FE7 /* dynamic_island_tutorialTests.swift */,
+			);
+			path = "dynamic-island-tutorialTests";
+			sourceTree = "<group>";
+		};
+		1F0B19FE2903863D000A5FE7 /* dynamic-island-tutorialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F0B19FF2903863D000A5FE7 /* dynamic_island_tutorialUITests.swift */,
+				1F0B1A012903863D000A5FE7 /* dynamic_island_tutorialUITestsLaunchTests.swift */,
+			);
+			path = "dynamic-island-tutorialUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F0B19E02903863B000A5FE7 /* dynamic-island-tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0B1A052903863D000A5FE7 /* Build configuration list for PBXNativeTarget "dynamic-island-tutorial" */;
+			buildPhases = (
+				1F0B19DD2903863B000A5FE7 /* Sources */,
+				1F0B19DE2903863B000A5FE7 /* Frameworks */,
+				1F0B19DF2903863B000A5FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dynamic-island-tutorial";
+			productName = "dynamic-island-tutorial";
+			productReference = 1F0B19E12903863B000A5FE7 /* dynamic-island-tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F0B19F02903863D000A5FE7 /* dynamic-island-tutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0B1A082903863D000A5FE7 /* Build configuration list for PBXNativeTarget "dynamic-island-tutorialTests" */;
+			buildPhases = (
+				1F0B19ED2903863D000A5FE7 /* Sources */,
+				1F0B19EE2903863D000A5FE7 /* Frameworks */,
+				1F0B19EF2903863D000A5FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F0B19F32903863D000A5FE7 /* PBXTargetDependency */,
+			);
+			name = "dynamic-island-tutorialTests";
+			productName = "dynamic-island-tutorialTests";
+			productReference = 1F0B19F12903863D000A5FE7 /* dynamic-island-tutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F0B19FA2903863D000A5FE7 /* dynamic-island-tutorialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0B1A0B2903863D000A5FE7 /* Build configuration list for PBXNativeTarget "dynamic-island-tutorialUITests" */;
+			buildPhases = (
+				1F0B19F72903863D000A5FE7 /* Sources */,
+				1F0B19F82903863D000A5FE7 /* Frameworks */,
+				1F0B19F92903863D000A5FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F0B19FD2903863D000A5FE7 /* PBXTargetDependency */,
+			);
+			name = "dynamic-island-tutorialUITests";
+			productName = "dynamic-island-tutorialUITests";
+			productReference = 1F0B19FB2903863D000A5FE7 /* dynamic-island-tutorialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F0B19D92903863B000A5FE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					1F0B19E02903863B000A5FE7 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					1F0B19F02903863D000A5FE7 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 1F0B19E02903863B000A5FE7;
+					};
+					1F0B19FA2903863D000A5FE7 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 1F0B19E02903863B000A5FE7;
+					};
+				};
+			};
+			buildConfigurationList = 1F0B19DC2903863B000A5FE7 /* Build configuration list for PBXProject "dynamic-island-tutorial" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F0B19D82903863B000A5FE7;
+			productRefGroup = 1F0B19E22903863B000A5FE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F0B19E02903863B000A5FE7 /* dynamic-island-tutorial */,
+				1F0B19F02903863D000A5FE7 /* dynamic-island-tutorialTests */,
+				1F0B19FA2903863D000A5FE7 /* dynamic-island-tutorialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F0B19DF2903863B000A5FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0B19EC2903863C000A5FE7 /* Preview Assets.xcassets in Resources */,
+				1F0B19E92903863C000A5FE7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0B19EF2903863D000A5FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0B19F92903863D000A5FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F0B19DD2903863B000A5FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0B19E72903863B000A5FE7 /* ContentView.swift in Sources */,
+				1F0B19E52903863B000A5FE7 /* dynamic_island_tutorialApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0B19ED2903863D000A5FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0B19F62903863D000A5FE7 /* dynamic_island_tutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0B19F72903863D000A5FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0B1A002903863D000A5FE7 /* dynamic_island_tutorialUITests.swift in Sources */,
+				1F0B1A022903863D000A5FE7 /* dynamic_island_tutorialUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F0B19F32903863D000A5FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F0B19E02903863B000A5FE7 /* dynamic-island-tutorial */;
+			targetProxy = 1F0B19F22903863D000A5FE7 /* PBXContainerItemProxy */;
+		};
+		1F0B19FD2903863D000A5FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F0B19E02903863B000A5FE7 /* dynamic-island-tutorial */;
+			targetProxy = 1F0B19FC2903863D000A5FE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F0B1A032903863D000A5FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F0B1A042903863D000A5FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F0B1A062903863D000A5FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dynamic-island-tutorial/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mung.tes.dynamic-island-tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F0B1A072903863D000A5FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dynamic-island-tutorial/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mung.tes.dynamic-island-tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F0B1A092903863D000A5FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mung.tes.dynamic-island-tutorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dynamic-island-tutorial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dynamic-island-tutorial";
+			};
+			name = Debug;
+		};
+		1F0B1A0A2903863D000A5FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mung.tes.dynamic-island-tutorialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dynamic-island-tutorial.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dynamic-island-tutorial";
+			};
+			name = Release;
+		};
+		1F0B1A0C2903863D000A5FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mung.tes.dynamic-island-tutorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dynamic-island-tutorial";
+			};
+			name = Debug;
+		};
+		1F0B1A0D2903863D000A5FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mung.tes.dynamic-island-tutorialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dynamic-island-tutorial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F0B19DC2903863B000A5FE7 /* Build configuration list for PBXProject "dynamic-island-tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0B1A032903863D000A5FE7 /* Debug */,
+				1F0B1A042903863D000A5FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0B1A052903863D000A5FE7 /* Build configuration list for PBXNativeTarget "dynamic-island-tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0B1A062903863D000A5FE7 /* Debug */,
+				1F0B1A072903863D000A5FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0B1A082903863D000A5FE7 /* Build configuration list for PBXNativeTarget "dynamic-island-tutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0B1A092903863D000A5FE7 /* Debug */,
+				1F0B1A0A2903863D000A5FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0B1A0B2903863D000A5FE7 /* Build configuration list for PBXNativeTarget "dynamic-island-tutorialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0B1A0C2903863D000A5FE7 /* Debug */,
+				1F0B1A0D2903863D000A5FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F0B19D92903863B000A5FE7 /* Project object */;
+}
