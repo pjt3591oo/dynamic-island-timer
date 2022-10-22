@@ -14,6 +14,15 @@
 		1F0B19F62903863D000A5FE7 /* dynamic_island_tutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B19F52903863D000A5FE7 /* dynamic_island_tutorialTests.swift */; };
 		1F0B1A002903863D000A5FE7 /* dynamic_island_tutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B19FF2903863D000A5FE7 /* dynamic_island_tutorialUITests.swift */; };
 		1F0B1A022903863D000A5FE7 /* dynamic_island_tutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B1A012903863D000A5FE7 /* dynamic_island_tutorialUITestsLaunchTests.swift */; };
+		1F0B1A15290387A2000A5FE7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0B1A14290387A2000A5FE7 /* WidgetKit.framework */; };
+		1F0B1A17290387A2000A5FE7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F0B1A16290387A2000A5FE7 /* SwiftUI.framework */; };
+		1F0B1A1A290387A2000A5FE7 /* dynamic_islandBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B1A19290387A2000A5FE7 /* dynamic_islandBundle.swift */; };
+		1F0B1A1C290387A2000A5FE7 /* dynamic_islandLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B1A1B290387A2000A5FE7 /* dynamic_islandLiveActivity.swift */; };
+		1F0B1A1E290387A2000A5FE7 /* dynamic_island.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B1A1D290387A2000A5FE7 /* dynamic_island.swift */; };
+		1F0B1A21290387A3000A5FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B1A20290387A3000A5FE7 /* Assets.xcassets */; };
+		1F0B1A23290387A3000A5FE7 /* dynamic_island.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B1A1F290387A2000A5FE7 /* dynamic_island.intentdefinition */; };
+		1F0B1A24290387A3000A5FE7 /* dynamic_island.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B1A1F290387A2000A5FE7 /* dynamic_island.intentdefinition */; };
+		1F0B1A27290387A3000A5FE7 /* dynamic-islandExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1F0B1A12290387A2000A5FE7 /* dynamic-islandExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +40,28 @@
 			remoteGlobalIDString = 1F0B19E02903863B000A5FE7;
 			remoteInfo = "dynamic-island-tutorial";
 		};
+		1F0B1A25290387A3000A5FE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0B19D92903863B000A5FE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0B1A11290387A2000A5FE7;
+			remoteInfo = "dynamic-islandExtension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F0B1A2B290387A3000A5FE7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1F0B1A27290387A3000A5FE7 /* dynamic-islandExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1F0B19E12903863B000A5FE7 /* dynamic-island-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dynamic-island-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +74,16 @@
 		1F0B19FB2903863D000A5FE7 /* dynamic-island-tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dynamic-island-tutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F0B19FF2903863D000A5FE7 /* dynamic_island_tutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamic_island_tutorialUITests.swift; sourceTree = "<group>"; };
 		1F0B1A012903863D000A5FE7 /* dynamic_island_tutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamic_island_tutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F0B1A12290387A2000A5FE7 /* dynamic-islandExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "dynamic-islandExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0B1A14290387A2000A5FE7 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		1F0B1A16290387A2000A5FE7 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		1F0B1A19290387A2000A5FE7 /* dynamic_islandBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamic_islandBundle.swift; sourceTree = "<group>"; };
+		1F0B1A1B290387A2000A5FE7 /* dynamic_islandLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamic_islandLiveActivity.swift; sourceTree = "<group>"; };
+		1F0B1A1D290387A2000A5FE7 /* dynamic_island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dynamic_island.swift; sourceTree = "<group>"; };
+		1F0B1A1F290387A2000A5FE7 /* dynamic_island.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = dynamic_island.intentdefinition; sourceTree = "<group>"; };
+		1F0B1A20290387A3000A5FE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F0B1A22290387A3000A5FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0B1A2C29038AE9000A5FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +108,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1F0B1A0F290387A2000A5FE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0B1A17290387A2000A5FE7 /* SwiftUI.framework in Frameworks */,
+				1F0B1A15290387A2000A5FE7 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,6 +126,8 @@
 				1F0B19E32903863B000A5FE7 /* dynamic-island-tutorial */,
 				1F0B19F42903863D000A5FE7 /* dynamic-island-tutorialTests */,
 				1F0B19FE2903863D000A5FE7 /* dynamic-island-tutorialUITests */,
+				1F0B1A18290387A2000A5FE7 /* dynamic-island */,
+				1F0B1A13290387A2000A5FE7 /* Frameworks */,
 				1F0B19E22903863B000A5FE7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +138,7 @@
 				1F0B19E12903863B000A5FE7 /* dynamic-island-tutorial.app */,
 				1F0B19F12903863D000A5FE7 /* dynamic-island-tutorialTests.xctest */,
 				1F0B19FB2903863D000A5FE7 /* dynamic-island-tutorialUITests.xctest */,
+				1F0B1A12290387A2000A5FE7 /* dynamic-islandExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +146,7 @@
 		1F0B19E32903863B000A5FE7 /* dynamic-island-tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				1F0B1A2C29038AE9000A5FE7 /* Info.plist */,
 				1F0B19E42903863B000A5FE7 /* dynamic_island_tutorialApp.swift */,
 				1F0B19E62903863B000A5FE7 /* ContentView.swift */,
 				1F0B19E82903863C000A5FE7 /* Assets.xcassets */,
@@ -127,6 +180,28 @@
 			path = "dynamic-island-tutorialUITests";
 			sourceTree = "<group>";
 		};
+		1F0B1A13290387A2000A5FE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F0B1A14290387A2000A5FE7 /* WidgetKit.framework */,
+				1F0B1A16290387A2000A5FE7 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F0B1A18290387A2000A5FE7 /* dynamic-island */ = {
+			isa = PBXGroup;
+			children = (
+				1F0B1A19290387A2000A5FE7 /* dynamic_islandBundle.swift */,
+				1F0B1A1B290387A2000A5FE7 /* dynamic_islandLiveActivity.swift */,
+				1F0B1A1D290387A2000A5FE7 /* dynamic_island.swift */,
+				1F0B1A1F290387A2000A5FE7 /* dynamic_island.intentdefinition */,
+				1F0B1A20290387A3000A5FE7 /* Assets.xcassets */,
+				1F0B1A22290387A3000A5FE7 /* Info.plist */,
+			);
+			path = "dynamic-island";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,10 +212,12 @@
 				1F0B19DD2903863B000A5FE7 /* Sources */,
 				1F0B19DE2903863B000A5FE7 /* Frameworks */,
 				1F0B19DF2903863B000A5FE7 /* Resources */,
+				1F0B1A2B290387A3000A5FE7 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1F0B1A26290387A3000A5FE7 /* PBXTargetDependency */,
 			);
 			name = "dynamic-island-tutorial";
 			productName = "dynamic-island-tutorial";
@@ -183,6 +260,23 @@
 			productReference = 1F0B19FB2903863D000A5FE7 /* dynamic-island-tutorialUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		1F0B1A11290387A2000A5FE7 /* dynamic-islandExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0B1A28290387A3000A5FE7 /* Build configuration list for PBXNativeTarget "dynamic-islandExtension" */;
+			buildPhases = (
+				1F0B1A0E290387A2000A5FE7 /* Sources */,
+				1F0B1A0F290387A2000A5FE7 /* Frameworks */,
+				1F0B1A10290387A2000A5FE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dynamic-islandExtension";
+			productName = "dynamic-islandExtension";
+			productReference = 1F0B1A12290387A2000A5FE7 /* dynamic-islandExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +298,9 @@
 						CreatedOnToolsVersion = 14.1;
 						TestTargetID = 1F0B19E02903863B000A5FE7;
 					};
+					1F0B1A11290387A2000A5FE7 = {
+						CreatedOnToolsVersion = 14.1;
+					};
 				};
 			};
 			buildConfigurationList = 1F0B19DC2903863B000A5FE7 /* Build configuration list for PBXProject "dynamic-island-tutorial" */;
@@ -222,6 +319,7 @@
 				1F0B19E02903863B000A5FE7 /* dynamic-island-tutorial */,
 				1F0B19F02903863D000A5FE7 /* dynamic-island-tutorialTests */,
 				1F0B19FA2903863D000A5FE7 /* dynamic-island-tutorialUITests */,
+				1F0B1A11290387A2000A5FE7 /* dynamic-islandExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -250,6 +348,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1F0B1A10290387A2000A5FE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0B1A21290387A3000A5FE7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F0B19E72903863B000A5FE7 /* ContentView.swift in Sources */,
+				1F0B1A24290387A3000A5FE7 /* dynamic_island.intentdefinition in Sources */,
 				1F0B19E52903863B000A5FE7 /* dynamic_island_tutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +386,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1F0B1A0E290387A2000A5FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0B1A1C290387A2000A5FE7 /* dynamic_islandLiveActivity.swift in Sources */,
+				1F0B1A1A290387A2000A5FE7 /* dynamic_islandBundle.swift in Sources */,
+				1F0B1A1E290387A2000A5FE7 /* dynamic_island.swift in Sources */,
+				1F0B1A23290387A3000A5FE7 /* dynamic_island.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -291,6 +409,11 @@
 			isa = PBXTargetDependency;
 			target = 1F0B19E02903863B000A5FE7 /* dynamic-island-tutorial */;
 			targetProxy = 1F0B19FC2903863D000A5FE7 /* PBXContainerItemProxy */;
+		};
+		1F0B1A26290387A3000A5FE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F0B1A11290387A2000A5FE7 /* dynamic-islandExtension */;
+			targetProxy = 1F0B1A25290387A3000A5FE7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -412,6 +535,7 @@
 		1F0B1A062903863D000A5FE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -419,6 +543,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"dynamic-island-tutorial/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dynamic-island-tutorial/Info.plist";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -440,6 +566,7 @@
 		1F0B1A072903863D000A5FE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +574,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"dynamic-island-tutorial/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dynamic-island-tutorial/Info.plist";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -537,6 +666,58 @@
 			};
 			name = Release;
 		};
+		1F0B1A29290387A3000A5FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dynamic-island/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "dynamic-island";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mung.tes.dynamic-island-tutorial.dynamic-island";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F0B1A2A290387A3000A5FE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dynamic-island/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "dynamic-island";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mung.tes.dynamic-island-tutorial.dynamic-island";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -572,6 +753,15 @@
 			buildConfigurations = (
 				1F0B1A0C2903863D000A5FE7 /* Debug */,
 				1F0B1A0D2903863D000A5FE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0B1A28290387A3000A5FE7 /* Build configuration list for PBXNativeTarget "dynamic-islandExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0B1A29290387A3000A5FE7 /* Debug */,
+				1F0B1A2A290387A3000A5FE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
